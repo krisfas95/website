@@ -1,0 +1,167 @@
+body {
+    background: url(../img/ink-page-001.jpg);
+    background-size: 125%;
+    background-repeat: repeat-y;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.outerwrapper {
+    margin: 0 5%;
+    background-color: #dcfffb;
+}
+
+.contentwrapper {
+    width: 85%;
+    padding: 10px 20px;
+    margin: 0px auto 40px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header img {
+    float: left;
+    width: 5px;
+    height: 5px;
+    background: #555;
+}
+
+header h1 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-family: Open Sans, sans-serif;
+    font-size: 200%;
+    font-weight: 300;
+}
+
+
+/* navigation */
+
+
+
+
+nav {
+      margin: 0 auto;
+    width: auto;
+    height: 100px;
+    border: none;
+}
+
+nav ul {
+    margin: 0px auto;
+    overflow: auto;
+    list-style: none;
+}
+
+nav li {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid grey;
+    margin-left: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #888;
+}
+
+nav li a:hover {
+    color: #333;
+}
+
+nav li.active a {
+    color: blueviolet;
+    font-weight: normal;
+}
+
+nav li:last-child {
+    border: none;
+}
+
+
+/* list styles */
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: Open Sans, sans-serif;
+    font-size: 110%;
+    font-weight: 300;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+/* experience page styles */
+
+.experience li {
+    list-style: circle;
+}
+
+.experience h3 {
+    border-top: 1px solid silver;
+    padding-top: 10px;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 950px){
+    
+    nav{
+        width: auto;
+    }
+    nav li{
+        width:auto;
+    }
+}
+@media screen and (max-width: 700px){
+    
+    nav{
+        width: auto;
+    }
+    nav ul{
+        width:auto;
+    }
+    nav li{
+        width:auto;
+        font-size: auto;
+    }
+}
+
+
+
+
+    nav {
+        text-align:center
+    }
+    nav li {
+        display:inline-block;
+        float:none;
+        margin-left: -5px;
+    }
+    nav li li {
+        display:block;
+        text-align:left
+    }
